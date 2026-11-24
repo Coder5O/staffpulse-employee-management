@@ -1,0 +1,29 @@
+# ─── OS / Editor ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+
+# ─── Environment files (never commit secrets) ─────────────────────────────────
+backend/.env
+frontend/.env
+
+# ─── Docker volumes ───────────────────────────────────────────────────────────
+docker/volumes/
+
+# ─── Node ─────────────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+
+# ─── PHP / Composer ───────────────────────────────────────────────────────────
+backend/vendor/
+backend/storage/logs/*.log
+backend/storage/app/public
+backend/.phpunit.result.cache
+backend/database/database.sqlite
+
+# ─── PHP build artefacts ──────────────────────────────────────────────────────
+*.phar
